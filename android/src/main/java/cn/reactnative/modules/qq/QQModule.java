@@ -209,6 +209,10 @@ public class QQModule extends ReactContextBaseJavaModule implements IUiListener,
         Tencent.onActivityResultData(requestCode, resultCode, data, this);
     }
 
+    public void onActivityResult(int requestCode, int resultCode, Intent data) {
+        Tencent.onActivityResultData(requestCode, resultCode, data, this);
+    }
+
     public void onNewIntent(Intent intent){
 
     }
